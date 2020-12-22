@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Color Game Project</title>
+        <link rel="shortcut icon" type="image/png" href="colorWheel.png">
+    </head>
+
+    <body>
+        <header>
+            <h2 class="top">THE GREAT</h2>
+            <h1><span id="colorDisplay">rgb(255, 255, 255)</span></h1>
+            <h2>GUESSING GAME</h2>
+        </header>
+
+        <div class="strip">
+            <div class="stripContent">
+                <button id="reset">New Colors</button>
+                <span id="message"></span>
+                <button id="levelEasy">Easy</button>
+                <button id="levelHard" class="selected">Hard</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <script type="text/javascript" src="color.js"></script>
+    </body>
+</html>
